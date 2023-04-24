@@ -1,10 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import TinderMatches from './TinderMatches';
 import Chats from './Chats';
 import ChatScreen from './ChatScreen';
 import './App.css';
-
 
 function App() {
   return (
